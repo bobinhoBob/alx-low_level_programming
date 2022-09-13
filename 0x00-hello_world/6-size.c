@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - print the string in the function
  *
  * Description: using the main function
  * this program prints "Programming is like building a multilingual puzzle"
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -19,5 +20,5 @@ int main(void)
 	printf("Size of a long int: %1d byte(s)\n", sizeof(li));
 	printf("Size of a long long int: %1d byte(s)\n", sizeof(lli));
 	printf("Size of a float: %1d byte(s)\n", sizeof(f));
-		return (0);
+	return (0);
 }
