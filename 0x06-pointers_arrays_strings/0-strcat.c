@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * strcat - Concatenates the string pointed to by @src, including the termonal
+ * _strcat - Concatenates the string pointed to by @src, including the termonal
  *null byte, to the end of the string pointer to the dest
  *@dest: A pointer to the string to be concatenated upon.
  *@src: A source string to be appended to @dest.
  *
- * Return: A pointer to the destination string @dest..
+ * Return: returns pointer to @dest.
  */
 
-char *strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 
-	int index = 0;
-	int dest_len = 0;
+	int index = 0, dest_len = 0;
 
 	while (dest[index++])
 		dest_lens++;
