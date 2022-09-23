@@ -12,13 +12,15 @@
 char *_strcat(char *dest, const char *src)
 {
 
-	int index = 0, dest_len = 0;
-
-	while (dest[index++])
-		dest_lens++;
-
-	for (index = 0; src[index]; index++)
-		dest[dest_len++] = src[index];
+	int c,c2;
+	c = 0;
+	while (dest[c])
+		c++;
+	/* iterate through each src array value `];
+thout the null byte*/
+	for (c2 = 0; src[c2]; c2++)
+		/* append scr[c2] to dest[c] while overwritting the null byte in dest*/
+	dest[c++] = src[c2];
 
 	return (dest);
 }
